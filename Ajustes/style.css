@@ -32,7 +32,7 @@ body {
 .imagem-fixa {
     position: fixed; 
     bottom: 25px;    
-    right: 25px;     
+    left: 25px;     
     width: 65px;    
     height: auto;    
     z-index: 1000;  
@@ -203,6 +203,7 @@ body {
     color: #ffffff;
     border-radius: 5px;
     transition: all 0.3s;
+
 }
 
 .menu a img {
@@ -509,10 +510,11 @@ button:hover {
    width: 100%;
    color: #71d400;
    font-size: 18px;
-   background-color: red; 
+   background-color: #000000;    
 }
 
 .creditos div{
+    padding: 0px 60px;
    display: flex;
    justify-content: space-between;
    align-items: center;
