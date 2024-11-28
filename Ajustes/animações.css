@@ -1,0 +1,27 @@
+@keyframes mudarTexto {
+    0%, 100% { content: "TEXTO 1 "; }
+    33% { content: "TEXTO 2"; }
+    66% { content: "TEXTO 3"; }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
