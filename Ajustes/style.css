@@ -510,12 +510,12 @@ button:hover {
    width: 100%;
    color: #71d400;
    font-size: 18px;
-   background-color: #000000;    
+   background-color: #000000; 
+   padding: 10px 40px;
 }
 
 .creditos div{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 10px 80px;
 }
