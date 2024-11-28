@@ -192,7 +192,7 @@ body {
     display: flex;
     justify-content: center;    
     justify-content: space-between;
-    padding: 10px 60px;
+    padding: 10px 30px;
     text-align: center;
 
 }
@@ -206,8 +206,8 @@ body {
 }
 
 .menu a img {
-    width: 280px;
-    height: 280px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
 }
 
